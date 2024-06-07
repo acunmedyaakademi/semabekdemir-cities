@@ -1,0 +1,92 @@
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #F9F9E0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+p {
+  margin-bottom: 8px;
+}
+
+table{
+  border-collapse:separate;
+  border-spacing:10px;
+}
+
+
+table .cityList{
+  border-collapse: collapse;
+  background-color: #3AA6B9;
+}
+table tr, table td, table th {
+  border: 1px solid #FF9EAA;
+  padding: 10px 20px;
+}
+table th {
+  background-color:#FF9EAA;
+  color: #8E3E63;
+  font-weight: 600;
+}
+table td {
+  color: #D2649A;
+
+}
+
+table td:hover {
+  background-color: #FF9EAA;
+}
+
+
+.forPlace td:hover {
+  background-color: #CAE6B2;
+}
+
+.famousFor td:hover {
+  background-color: #DBB5B5;
+
+}
+
+.dbNumber td:hover {
+
+  background-color: #7E8EF1;
+}
+
+.onlyNumber td:hover {
+  background-color: #E1AFD1;
+}
